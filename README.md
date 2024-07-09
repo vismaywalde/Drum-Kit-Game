@@ -22,10 +22,11 @@ The HTML file sets up a basic structure with buttons for each drum sound. Each b
 
 
 
-JavaScript Logic (index.js)
+### JavaScript Logic (index.js)
 The JavaScript file handles the logic for playing the correct drum sound when a button is clicked or a key is pressed. It also adds a temporary animation to the button to give visual feedback.
 
-How It Works
+### How It Works
+
 When a button is clicked or a corresponding key is pressed, the makeSound function is called to play the appropriate sound.
 The buttonAnimation function adds a pressed class to the button for a brief moment to create a visual effect.
 The sounds are stored in the sounds directory (not provided, but expected to be part of the project).
