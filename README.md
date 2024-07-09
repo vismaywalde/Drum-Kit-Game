@@ -29,4 +29,4 @@ The JavaScript file handles the logic for playing the correct drum sound when a 
 
 When a button is clicked or a corresponding key is pressed, the makeSound function is called to play the appropriate sound.
 The buttonAnimation function adds a pressed class to the button for a brief moment to create a visual effect.
-The sounds are stored in the sounds directory (not provided, but expected to be part of the project).
+The sounds are stored in the sounds directory.
