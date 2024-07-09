@@ -18,38 +18,8 @@ To get started with the Drum Kit Game, simply open the `index.html` file in your
 
 The HTML file sets up a basic structure with buttons for each drum sound. Each button has a class of `drum` and a specific letter representing the drum sound it plays.
 
-```html
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
 
-<head>
-  <meta charset="utf-8">
-  <title>Drum Kit</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-</head>
 
-<body>
-
-  <h1 id="title">Drum 🥁 Kit</h1>
-  <div class="set">
-    <button class="w drum">w</button>
-    <button class="a drum">a</button>
-    <button class="s drum">s</button>
-    <button class="d drum">d</button>
-    <button class="j drum">j</button>
-    <button class="k drum">k</button>
-    <button class="l drum">l</button>
-  </div>
-
-  <footer>
-    Made by Vismay
-  </footer>
-
-  <script src="./index.js"></script>
-</body>
-
-</html>
 
 
 JavaScript Logic (index.js)
